@@ -1,0 +1,126 @@
+
+1) Verbal Ability
+
+
+This section is going to test 24 questions in 30 minutes. The question that are expected in this Verbal Ability section are:
+
+
+
+Reading Comprehension
+Sentence Correction or Error-Spotting (Covering topics such as Subject Verb Agreement, Pronoun Agreement, Parallelism, Prepositions, Articles, Tenses, Modifiers etc.)
+Sentence Completion
+Para-Jumbles
+Cloze Passage
+Vocabulary
+Phrasal Verbs and Idioms
+Voices and Forms of Speech
+
+2) Reasoning Ability
+
+
+This is a brand new section, which will have 30 questions to be solved in 50 minutes. The questions are expected from:
+
+
+
+Data Arrangements (Linear, Circular and Multi-dimensional)
+Blood Relations
+Coding, Decoding, Series and Visual Reasoning
+Data Interpretation
+Data Sufficiency
+Clocks, Calendars
+Cubes and Direction Sense
+Logical Connectives and Syllogisms
+Venn Diagrams
+Inequalities
+
+
+3) Numerical Ability
+
+
+The Numerical Ability section will have 26 questions to be solved in 40 minutes. The questions are expected from:
+
+
+
+
+
+Permutation and Combination
+Number System
+Probability
+Time Speed and Distance
+Equations
+Geometry, Mensuration and Progressions
+Ratios and Proportions
+Functions, Logarithms and Graphs
+Clocks, Direction Sense
+Profit and Loss, Averages, Mixtures and Alligations
+Puzzles
+Physics
+Base Conversion
+
+
+Practice TCS NQT Aptitude questions
+
+
+
+
+
+4) Programming Logic
+
+
+This section will consist of 10 questions which you have to solve in 15 minutes.
+
+
+
+Last year, this section had questions from Fundamentals of Programming in C, C++ and Java on the following topics.
+
+
+
+Operators
+Looping statements
+Control statements
+Arrays
+Strings
+Functions
+
+
+There were also questions on:
+
+
+
+Object Oriented Programming (OOPS)
+Standard Template Libraries (STL)
+Object Modeling
+Compiler Design
+Threading
+Data Structures: Linked List, Stack, Queue, Trees and Graphs
+Recursion
+
+
+For this year, do also prepare on:
+
+Pseudocoding
+Algorithms
+Basic Software Development Cycle
+
+
+60% of MCQs in TCS last year were from C++.
+
+
+
+Practice TCS NQT Programming Logic questions
+
+
+
+5) Coding
+
+
+The Coding section will consist of 2 questions to be solved in 45 minutes. The questions are expected to be of easy to medium difficulty level.
+
+
+
+The exact construct of this section will be:
+
+
+
+1 Question for 15 minutes
+1 Question for 30 minutes

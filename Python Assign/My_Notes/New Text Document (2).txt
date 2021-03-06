@@ -1,0 +1,133 @@
+[11:41 am, 13/10/2020] Neha Tai: import pandas as pd
+file=r'C:\Users\ds86380\Neha_L\Data.xlsx'
+
+df=pd.read_excel(file)
+df['Hike']=''
+# give Hike by 5% of his/her salray
+for i in range(len(df)):
+	df['Hike'][i]=df['Salary'][i]*1.05
+
+print(df)
+[11:41 am, 13/10/2020] Neha Tai: # Home work is : write this data back in excle file .
+[11:41 am, 13/10/2020] Neha Tai: import pandas as pd
+file=r'C:\Users\ds86380\Neha_L\Data.csv'
+
+df=pd.read_csv(file,sep=',')
+df['Loc']=''
+# give Hike by 5% of his/her salray
+for i in range(len(df)):
+	df['Loc'][i]='Pune'
+
+print(df)
+df.to_csv(r'C:\Users\ds86380\Neha_L\Data_NEW.csv',index=False)
+[11:41 am, 13/10/2020] Neha Tai: import pandas as pd
+file=r'C:\Users\ds86380\Neha_L\Data.xlsx'
+x=pd.ExcelFile(file)
+
+print(x.sheet_names)
+df = x.parse("Deepak")
+print(df)
+
+# merge output
+[11:41 am, 13/10/2020] Neha Tai: import pandas as pd
+file=r'C:\Users\ds86380\Neha_L\Data.xlsx'
+x=pd.ExcelFile(file)
+
+print(x.sheet_names)
+df = x.parse("Neha")
+
+# print(df[df.Salary==min(df.Salary)].Name)
+
+# find the Male employees 
+# find Male emp with miminum sal
+# find feMale emp with miminum sal
+# find emp with Same location 
+# find emp with same salary
+# find emp with same name
+
+# merge output
+
+
+
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+# def fun1(a,b):
+	# print('This is function one',a+b)
+	# if a==10:
+		# return 'ten'
+	# else:
+		# return 'not a good value'
+
+# fun1() # simple callign a function
+# x=fun1(20,30) # calling a funciton with parameter
+# print(x)
+
+
+# def fun(a=0,b=0):
+	# print('value of a is ',a)
+	# print('value of b is ',b)
+
+# fun(10)
+
+# def fun(**args):
+	# print('args',args)
+	
+# fun(a=10)
+
+
+#assignments read about generator , Decorater,Monkey Patching and Yield methods , Explain me tomorrow this.
+
+#Lambda/
+
+# def fun(x):
+	# print(x)
+# fun(10)
+# print('----------------------------------------------')
+# fun=lambda x:x+1
+# print(fun(10))
+
+# def fun(x,y):
+	# print(x+y)
+# fun(10,20)
+# print('----------------------------------------------')
+# fun=lambda x,y:x+y
+# print(fun(10,20))
+
+
+# fun=lambda x,y: 'deepak' if x==10 else 'sachin'
+# print(fun(10,20))
+
+#Assignment #convert below to lambda
+
+# def fun(a):
+	# if a==10:
+		# print('got ten')
+	# elif a==20:
+		# print('got twenty')
+	# else:
+		# print('waste')
+
+# fun(20)
+
+
+#assignments , what is the output ? 
+	# def heloo(deepak):
+		# print('This is Maze',deepak)
+	# def deepak(xyz,pqr)
+		# xyz(pqr)
+		
+# deepak(heloo,deepak)
+fun=lambda x: 'got ten' if x == 10 else('got twenty' if x == 20 else 'waste')
+print(fun(20))
+print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+
+
+
+
+

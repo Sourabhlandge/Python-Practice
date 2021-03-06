@@ -1,0 +1,12 @@
+boxet29088@mail3tech.com
+
+
+
+Enable Test Mode:  bcdedit /set testsigning on
+Disable Test Mode: bcdedit /set testsigning off
+
+MRT Crack PD:-Asif.Kamboh.lucky
+MRT KEY:-www.gsmfirmware.net
+Name:-GSMFIRMWARE.NET
+
+amtemu-official.com

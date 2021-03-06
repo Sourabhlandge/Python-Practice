@@ -1,0 +1,63 @@
+def popup_login_shareidea(request):
+    if request.method == "POST":
+        emailid = request.POST.get("emailid")
+        password = request.POST.get("password")
+        qs = RegistrationDataModel.objects.filter(emailid=emailid,password=password)
+        if qs:
+            request.session["emailid"]=emailid
+            return render(request,"shareIdea.html")
+        else:
+            return render(request,"issueComplaint.html",{"message":"Invalid User"})
+
+
+def popup_login_issuecomplaint(request):
+    if request.method == "POST":
+        emailid = request.POST.get("emailid")
+        password = request.POST.get("password")
+        qs = RegistrationDataModel.objects.filter(emailid=emailid, password=password)
+        if qs:
+            request.session["emailid"] = emailid
+            return render(request, "issueComplaint.html")
+        else:
+            return render(request, "aboutus.html", {"message": "Invalid User"})
+
+
+
+
+
+
+
+
+
+def get_Idea(request):
+    s_name = request.POST.get("s_name")
+    s_address = request.POST.get("s_address")
+    s_email = request.POST.get("s_email")
+    s_mobile = request.POST.get("s_mobile")
+    s_message = request.POST.get("s_message")
+    ShareIdea(s_name=s_name, s_address=s_address, s_email=s_email, s_mobile=s_mobile, s_message=s_message).save()
+    return render(request, "shareIdea.html")
+def get_Complaint(request):
+    c_name = request.POST.get("c_name")
+    c_email = request.POST.get("c_email")
+    c_address = request.POST.get("c_address")
+    c_mobile = request.POST.get("c_mobile")
+    c_image = request.POST.get("c_image")
+    c_message = request.POST.get("c__message")
+    Complaint(c_name=c_name, c_email=c_email, c_address=c_address, c_mobile=c_mobile, c_image=c_image,
+              c_message=c_message).save()
+    return render(request, "issueComplaint.html")
+
+class ShareIdea(models.Model):
+     s_name = models.CharField(max_length=20)
+     s_address = models.CharField(max_length=30)
+     s_email = models.EmailField(primary_key=True)
+     s_mobile = models.IntegerField()
+     s_message = models.CharField(max_length=1000)
+class Complaint(models.Model):
+     c_name = models.CharField(max_length=20)
+     c_email = models.EmailField(primary_key=True)
+     c_address = models.CharField(max_length=30)
+     c_mobile = models.IntegerField()
+     c_image = models.ImageField()
+     c_message = models.CharField(max_length=1000)
